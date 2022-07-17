@@ -33,22 +33,18 @@ const AnimatedImage = ({
           }s`,
         }}
       >
-        <div
+        <img
           style={{
-            height: "100%",
-            width: "100%",
+            width: width,
+            height: height,
             position: "absolute",
             bottom: "0",
             left: "0",
           }}
-        >
-          <img
-            style={{ width: width, height: height }}
-            src={image}
-            alt={alt}
-            onLoad={loadingComplete}
-          />
-        </div>
+          src={image}
+          alt={alt}
+          onLoad={loadingComplete}
+        />
       </div>
     </div>
   );
