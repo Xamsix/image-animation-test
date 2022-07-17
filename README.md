@@ -4,6 +4,7 @@ import AnimatedImage from "npm-test-bram";
 
 ## use component
 
+```
 <AnimatedImage
 image="./images/hero.jpg"
 alt="test image"
@@ -17,3 +18,4 @@ startAnimation={loadedImage}
 initialDelay="0"
 easeDuration=".3"
 />
+```
