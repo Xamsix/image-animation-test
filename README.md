@@ -10,11 +10,8 @@ import AnimatedImage from "npm-test-bram";
     alt="test image"
     width="100%"
     height="528px"
-    loadingComplete={() => {
-        setLoadedImage(true);
-        setHasLoaded(true);
-    }}
-    startAnimation={loadedImage}
+    loadingComplete={yourFunction}
+    startAnimation={true}
     initialDelay="0"
     easeDuration=".3"
 />
